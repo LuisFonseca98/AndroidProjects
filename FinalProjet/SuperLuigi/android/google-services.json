@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026774294139",
+    "project_id": "superluigifirebasedb",
+    "storage_bucket": "superluigifirebasedb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026774294139:android:d9d5299621eec4c9ef8cde",
+        "android_client_info": {
+          "package_name": "com.mygdx.game"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026774294139-mg4dvvqisunj7ugefm4n9hmc03siqc8k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDvycc5EJNIqVl69pvE0S-VIu4Mi5wi8xk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026774294139-mg4dvvqisunj7ugefm4n9hmc03siqc8k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

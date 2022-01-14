@@ -1,0 +1,22 @@
+{
+  "class":"com.mygdx.game.Utils.LanguagesValues",
+  "map": {
+    "BACK": "Voltar",
+    "VICTORY": "Vitória, Parabéns",
+    "DEFEAT": "Fim do Jogo!",
+    "SCORE": "Pontuação",
+    "LVL1": "Jogar Nivel 1",
+    "LVL2": "Jogar Nivel 2",
+    "OPTIONS": "Opcoes",
+    "MUSIC": "Ligar/Desligar musica",
+    "WLCM": "Bem vindo ao Luigi Adventure: A cure for Covid!",
+    "PLAYAGAIN": "Clica para tentares outra vez!",
+    "NICE_WORK": "Bom Trabalho!",
+    "NEXT_LEVEL": "Clica no ecra para continuar para o proximo nivel!",
+    "FINISH_GAME": "Parabens! Terminaste o jogo!",
+    "GO_MM": "Clica no ecra para prosseguir para o menu principal!",
+    "TIME": "Tempo",
+    "LVL": "Nivel"
+
+  }
+}
