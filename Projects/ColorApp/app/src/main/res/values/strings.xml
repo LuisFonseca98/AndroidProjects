@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ColorApp</string>
+    <string name="red">Red</string>
+    <string name="minus">-</string>
+    <string name="plusRed">+</string>
+    <string name="numRed">100</string>
+    <string name="greenLabel">Green</string>
+    <string name="minusGreen">-</string>
+    <string name="plusGreen">+</string>
+    <string name="numGreen">100</string>
+    <string name="blueLabel">Blue</string>
+    <string name="minusBlue">-</string>
+    <string name="plusBlue">+</string>
+    <string name="rgbResult">(100,100,100)</string>
+    <string name="numBlue">100</string>
+</resources>

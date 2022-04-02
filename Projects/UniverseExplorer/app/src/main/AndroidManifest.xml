@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="a45125.dam.universeexplorer">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Universe Explorer"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UniverseExplorer">
+
+        <service android:name=".MusicService"/>
+        <activity android:name=".AttackPlanet"/>
+        <activity android:name=".ShowPlanetSurface"/>
+        <activity android:name=".SelectPlanet" />
+        <activity android:name=".ImagePlanet" />
+        <activity android:name=".PlanetActivity"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

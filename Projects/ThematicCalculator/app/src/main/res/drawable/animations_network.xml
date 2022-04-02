@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/ic_signal_cellular_connected_no_internet"
+        android:duration="400"/>
+    <item android:drawable="@drawable/ic_signal_cellular_0"
+        android:duration="400"/>
+    <item android:drawable="@drawable/ic_signal_cellular_1"
+        android:duration="400"/>
+    <item android:drawable="@drawable/ic_signal_cellular_2"
+        android:duration="400"/>
+    <item android:drawable="@drawable/ic_signal_cellular_3"
+        android:duration="400"/>
+    <item android:drawable="@drawable/ic_signal_cellular_4"
+        android:duration="400"/>
+</animation-list>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy2"
+    tools:context=".PlanetActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayoutPlanetInfo"
+        android:layout_marginLeft="35dp"
+        android:layout_marginRight="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.594">
+
+        <TextView
+            android:id="@+id/titleApp"
+            android:layout_width="372dp"
+            android:layout_height="49dp"
+            android:background="@color/backgroundColor"
+            android:gravity="center"
+            android:textColor="@color/colorWhite"
+            android:textSize="30sp" />
+
+        <ImageView
+            android:id="@+id/planetPic"
+            android:layout_width="183dp"
+            android:layout_height="144dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.241"
+            app:srcCompat="@drawable/venus_small" />
+
+        <TableRow
+            android:id="@+id/massInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/massText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.75"
+                android:background="@color/colorPrimary"
+                android:text="@string/mass"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/massValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:focusable="false"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/grtInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/grtText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.75"
+                android:background="@color/colorPrimary"
+                android:text="@string/grt"
+                android:textSize="20dp" />
+
+            <TextView
+                android:id="@+id/grtValues"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:focusable="false"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/numMilitaryBasesInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/numMilitaryBasesText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.75"
+                android:background="@color/colorPrimary"
+                android:text="@string/numMilitaryBases"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/numMilitaryBasesValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:focusable="false"
+                android:clickable="false"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/numColoniesInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/numColoniesText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.75"
+                android:background="@color/colorPrimary"
+                android:text="@string/numColonies"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/numColoniesValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:focusable="false"
+                android:clickable="false"
+                android:inputType="numberDecimal"
+                android:text="0"
+                android:textSize="20dp" />
+        </TableRow>
+
+        <TableRow
+            android:id="@+id/ffInfo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:padding="2dp">
+
+            <TextView
+                android:id="@+id/ffText"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:layout_weight="0.75"
+                android:background="@color/colorPrimary"
+                android:text="@string/ff"
+                android:textSize="20dp" />
+
+            <EditText
+                android:id="@+id/ffValue"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_weight="0.25"
+                android:background="@color/colorPrimary"
+                android:focusable="false"
+                android:inputType="text"
+                android:textSize="20dp" />
+        </TableRow>
+        <TableRow
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/saveButton"
+                android:layout_width="48dp"
+                android:layout_height="match_parent"
+                android:background="@color/colorBackgroundYellow"
+                android:visibility="invisible"
+                app:srcCompat="@android:drawable/ic_menu_save" />
+
+        </TableRow>
+    </TableLayout>
+
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

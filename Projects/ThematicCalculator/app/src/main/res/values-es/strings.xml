@@ -1,0 +1,26 @@
+<resources>
+    <string name="clubsCalculator">Calculadora Tematica</string>
+    <string name="start">Start Calculator</string>
+
+    <!-->LINGUA ESPANHOL</-->
+    <string name="titleApp">Calculadora Tematica</string>
+    <string name="SelectTeam">¡Selecciona tu equipo!</string>
+    <string name="valorInicial">0.0</string>
+    <string name="slbEmblem">Emblema SLB</string>
+    <string name="scpEmblem">Emblema SCP</string>
+    <string name="portoEmblem">Emblema Porto</string>
+    <string name="Operand1">Operandando1</string>
+    <string name="Operand2">Operandando2</string>
+    <string name="result">Resultado: </string>
+    <string name="soma">+</string>
+    <string name="sub">-</string>
+    <string name="mult">*</string>
+    <string name="div">/</string>
+    <string name="cosseno">cos</string>
+    <string name="seno">sin</string>
+    <string name="tangente">tan</string>
+    <string name="module">mod</string>
+    <string name="setOperador1">SetNum1</string>
+    <string name="getOperador1">GetNum1</string>
+
+</resources>

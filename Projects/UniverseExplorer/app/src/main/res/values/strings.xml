@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">UniverseExplorer</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="titleApp">Planets</string>
+
+    <!--INFO DOS PLANETAS-->
+    <string name="mass">Mass</string>
+    <string name="grt">Gravity</string>
+    <string name="numColonies">N. of Colonies</string>
+    <string name="numMilitaryBases">N. if military bases</string>
+    <string name="ff">Force Field</string>
+
+
+    <!--INFO DO MENU-->
+    <string name="colonize">Colonize Planet</string>
+    <string name="update">Update Planet Data</string>
+    <string name="selection">Select Planet</string>
+    <string name="surface">Show Planet Surface</string>
+    <string name = "attack">Attack Planet</string>
+
+
+    <!--SELECTED TITLE -->
+    <string name="selected">Select Planet</string>
+
+    <!--ATTACK PLANET INFO-->
+    <string name="bomb">Bomb Planet</string>
+    <string name="invade">Invade Planet</string>
+    <string name="infect">Infect Planet</string>
+    <string name="laser">Laser Planet</string>
+    <string name="exit">Exit Attack</string>
+
+
+</resources>

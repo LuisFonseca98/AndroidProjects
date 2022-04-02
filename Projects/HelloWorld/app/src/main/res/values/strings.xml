@@ -1,0 +1,8 @@
+<resources>
+    <!--STRING USED FOR THE TITLES OF THE TEMPLATES-->
+    <string name="app_name">Hello World V2</string>
+    <string name="hello_string">Hello Android World!</string>
+    <string name="my_first_app">My First App</string>
+    <string name="just_smile">Just Smile</string>
+    <string name="checkValue">Check</string>
+</resources>

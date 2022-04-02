@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/galaxy2"
+    tools:context=".AttackPlanet">
+
+
+    <TableLayout
+        android:layout_width="440dp"
+        android:layout_height="506dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/bombPic"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/selector1" />
+
+            <TextView
+                android:id="@+id/attackBomb"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/bomb"
+                android:textColor="@color/textBombColor"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/invasionPic"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/selector2" />
+
+            <TextView
+                android:id="@+id/invasionText"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/invade"
+                android:textColor="@android:color/holo_orange_dark"
+                android:textSize="30dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageButton
+                android:id="@+id/infectionPic"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/selector3"/>
+
+            <TextView
+                android:id="@+id/infectionText"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/infect"
+                android:textColor="@android:color/holo_red_dark"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="114dp">
+
+            <ImageButton
+                android:id="@+id/laserPic"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/selector4" />
+
+            <TextView
+                android:id="@+id/laserText"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/laser"
+                android:textColor="@color/textLaserbColor"
+                android:textSize="30dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="114dp">
+
+            <ImageButton
+                android:id="@+id/exitPic"
+                android:layout_width="96dp"
+                android:layout_height="96dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="70dp"
+                android:background="@android:color/transparent"
+                app:srcCompat="@drawable/attackexit" />
+
+            <TextView
+                android:id="@+id/exitText"
+                android:layout_width="235dp"
+                android:layout_height="match_parent"
+                android:background="@android:color/transparent"
+                android:gravity="center"
+                android:text="@string/exit"
+                android:textColor="@android:color/holo_green_dark"
+                android:textSize="30dp" />
+        </TableRow>
+    </TableLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="402dp"
+        android:layout_height="134dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005">
+
+        <TextView
+            android:id="@+id/planetName"
+            android:layout_width="69dp"
+            android:layout_height="126dp"
+            android:layout_weight="1"
+            android:alpha="0.50"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/holo_purple"
+            android:gravity="center"
+            android:text="Hello"
+            android:textSize="25sp" />
+
+        <ImageView
+            android:id="@+id/planetPic"
+            android:layout_width="21dp"
+            android:layout_height="126dp"
+            android:layout_weight="1"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            app:srcCompat="@drawable/earth_small" />
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

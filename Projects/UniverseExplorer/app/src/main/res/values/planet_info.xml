@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="planets">
+        <item>@array/planet_mercury</item>
+        <item>@array/planet_earth</item>
+        <item>@array/planet_jupiter</item>
+        <item>@array/planet_mars</item>
+        <item>@array/planet_venus</item>
+        <item>@array/planet_uranus</item>
+        <item>@array/planet_saturn</item>
+        <item>@array/planet_neptune</item>
+    </array>
+
+    <array name="planet_mercury">
+        <item>Mercury</item>
+        <item>0.33</item>
+        <item>3.7</item>
+        <item>@drawable/mercury_small</item>
+        <item>@drawable/mercury</item>
+        <item>@drawable/mercury2</item>
+    </array>
+    <array name="planet_earth">
+        <item>Earth</item>
+        <item>5.97</item>
+        <item>9.8</item>
+        <item>@drawable/earth_small</item>
+        <item>@drawable/earth</item>
+        <item>@drawable/earth2</item>
+    </array>
+    <array name="planet_jupiter">
+        <item>Jupiter</item>
+        <item>1898</item>
+        <item>23.1</item>
+        <item>@drawable/jupiter_small</item>
+        <item>@drawable/jupiter</item>
+        <item>@drawable/jupiter2</item>
+    </array>
+    <array name="planet_mars">
+        <item>Mars</item>
+        <item>0.642</item>
+        <item>3.7</item>
+        <item>@drawable/mars_small</item>
+        <item>@drawable/mars</item>
+        <item>@drawable/mars2</item>
+
+    </array>
+    <array name="planet_venus">
+        <item>Venus</item>
+        <item>4.87</item>
+        <item>8.9</item>
+        <item>@drawable/venus_small</item>
+        <item>@drawable/venus</item>
+        <item>@drawable/venus2</item>
+
+    </array>
+    <array name="planet_uranus">
+        <item>Uranus</item>
+        <item>86.8</item>
+        <item>8.7</item>
+        <item>@drawable/uranus_small</item>
+        <item>@drawable/uranus</item>
+        <item>@drawable/jupiter2</item>
+
+    </array>
+    <array name="planet_saturn">
+        <item>Saturn</item>
+        <item>568</item>
+        <item>9.0</item>
+        <item>@drawable/saturn_small</item>
+        <item>@drawable/saturn</item>
+        <item>@drawable/saturn2</item>
+    </array>
+    <array name="planet_neptune">
+        <item>Neptune</item>
+        <item>102</item>
+        <item>11.0</item>
+        <item>@drawable/neptune_small</item>
+        <item>@drawable/neptune</item>
+        <item>@drawable/neptune2</item>
+    </array>
+
+</resources>
